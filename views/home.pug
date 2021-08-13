@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style 
+    //- style
+    //-   include ../static/style.css
+    link(rel="stylesheet", href="../static/style.css")
+    link(rel="stylesheet", media="screen and (max-width: 1200px)", href="../static/phone.css")
+
+block content
+    section#intro-section 
+      div Welcome To Om Dance Academy 
+      div.small Eat Dance Sleep Repeat
+    section#mission-section 
+      h1 Our Mission
+      div.card
+        h2 Dance Perfection
+        div.card-box 
+          div.card-img
+            img(src="static/logo4.png", alt="")
+          div.card-content
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi soluta voluptatibus adipisci. Sequi, iure.
+      div.card
+        h2 Dance the way you like
+        div.card-box 
+          div.card-img
+            img(src="static/logo1.png", alt="")
+          div.card-content
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi soluta voluptatibus adipisci. Sequi, iure.
+      div.card
+        h2 Expert Teaching
+        div.card-box 
+          div.card-img
+            img(src="static/logo2.png", alt="")
+          div.card-content
+            p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi soluta voluptatibus adipisci. Sequi, iure.
+    section#sponsors-section 
+      h1 Our Sponsors
+      div#sp-box
+        img(src="static/icon1.png", alt="spImg", class="sp-img")
+        img(src="static/icon2.png", alt="spImg", class="sp-img")
+        img(src="static/icon3.png", alt="spImg", class="sp-img")
+        img(src="static/icon4.png", alt="spImg", class="sp-img") 

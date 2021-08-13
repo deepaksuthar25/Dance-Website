@@ -1,0 +1,17 @@
+{
+  "name": "DanceAcademy",
+  "version": "1.0.0",
+  "description": "this is the a dance academy website using node js, express, and pug.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Suthar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}

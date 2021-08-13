@@ -1,0 +1,57 @@
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 22px; */
+}
+
+.classform{
+    border: 4px solid rgb(63, 61, 61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0px 12px;
+    padding: 12px 12px;
+    border-radius: 32px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.myInput{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 10px 12px;
+    border-style: none;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.btn{
+    padding: 11px 36px;
+    margin: 18px 8px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.2s ease-in;
+    /* font-weight: bold; */
+    font-family: 'Yeseva One', cursive;
+}
+.btn:hover{
+    background-color: #ef2222;
+    color: black;
+}
